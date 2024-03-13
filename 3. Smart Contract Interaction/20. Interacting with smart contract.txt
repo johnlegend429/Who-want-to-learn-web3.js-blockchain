@@ -1,0 +1,1 @@
+const Contract = require("web3-eth-contract"); Contract.setProvider("HTTP://127.0.0.1:7545"); async function instanceContract() { ABI = Your ABI of code ContractAddress = "Contract Address"; const contract = new Contract(ABI, ContractAddress); //console.log(contract); contract.methods .get() .call({ from: "account address " }) .then(console.log); } instanceContract();

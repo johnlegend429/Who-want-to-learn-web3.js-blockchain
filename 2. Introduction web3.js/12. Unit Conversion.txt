@@ -1,0 +1,5 @@
+let Web3 = require("web3");
+
+let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545")); // console.log(web3);
+
+async function getBalance() { const balance = await web3.eth.getBalance( "0x512D2F4c38fE60b9aB5671740583074b1298DAB0" ); const balanceToEther = await web3.utils.fromWei(balance, "ether"); const balanceToWei = await web3.utils.toWei(balanceToEther, "ether"); console.log(balanceToWei); } getBalance();

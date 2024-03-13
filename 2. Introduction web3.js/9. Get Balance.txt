@@ -1,0 +1,5 @@
+let Web3 = require("web3");
+
+let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545")); // console.log(web3);
+
+async function getBalance() { const balance = await web3.eth.getBalance( "Account Address" ); console.log(balance); } getBalance();

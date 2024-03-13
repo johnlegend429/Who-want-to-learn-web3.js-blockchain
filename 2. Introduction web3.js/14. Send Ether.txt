@@ -1,0 +1,5 @@
+let Web3 = require("web3");
+
+let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545")); // console.log(web3);
+
+async function send() { var txnHash = await web3.eth.sendTransaction({ from: "address 1", to: "address 2", value: web3.utils.toWei("1", "ether"), }); console.log("Transfer successful"); } send();

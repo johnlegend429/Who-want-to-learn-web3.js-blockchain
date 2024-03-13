@@ -1,0 +1,1 @@
+truffle compile - To compile all the smart contracts present in the contract folder. truffle migrate --reset - To migrate all the smart contracts present in the migration folder.

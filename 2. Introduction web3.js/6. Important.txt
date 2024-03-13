@@ -1,0 +1,1 @@
+To use web3.js library and Truffle we need to install node.js . Installation steps shown in the next video. Thanks :)

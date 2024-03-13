@@ -1,0 +1,1 @@
+While making our Dapp we are going to use Truffle and web3.js library. If you do not know about Truffle feel free to "Truffle Refresher" section which is a part of my "Smart Contract Testing" course.
